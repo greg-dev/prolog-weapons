@@ -1,0 +1,19 @@
+:-dynamic weapon/5.
+weapon(nagant,small_arms,revolver,7.62,belgium).
+weapon(colt_1908,small_arms,revolver,6.25,usa).
+weapon(desert_eagle,small_arms,handgun,12.7,israel).
+weapon(browningm_1903,small_arms,handgun,9,belgium).
+weapon(beretta_950,small_arms,handgun,5.56,italy).
+weapon(ppsz,small_arms,submachine_gun,9,ussr).
+weapon(sks,small_arms,rifle,7.62,ussr).
+weapon(carcano,small_arms,rifle,6.5,italy).
+weapon(ak-47,small_arms,assault_rifle,7.62,ussr).
+weapon(famas-f1,small_arms,assault_rifle,5.56,france).
+weapon(cannon_02/26,artillery,cannon,76.2,russia).
+weapon(cannon_13_schneider,artillery,cannon,105,france).
+weapon(cannon_1914/1919,artillery,howitzer,100,czechoslovakia).
+weapon(cannon_1917_schneider,artillery,howitzer,155,france).
+weapon(ags17plamja,artillery,grenade_launcher,30,ussr).
+weapon(m203,artillery,grenade_launcher,40,usa).
+weapon(panzerfaust,artillery,rocket_propelled_grenade_launcher,44,germany).
+weapon(rpg-7,artillery,rocket_propelled_grenade_launcher,80,ussr).
