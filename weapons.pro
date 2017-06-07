@@ -3,21 +3,21 @@
 menu:-
 	nl,
 	write('*********************************'),nl,
-    write('*         W E A P O N S         *'),nl,
-    write('*********************************'),nl,
-    write('* 1. - View the knowledge base  *'),nl,
-    write('* 2. - Add new weapon           *'),nl,
-    write('* 3. - Update weapons           *'),nl,
-    write('* 4. - Remove weapons           *'),nl,
+	write('*         W E A P O N S         *'),nl,
+	write('*********************************'),nl,
+	write('* 1. - View the knowledge base  *'),nl,
+	write('* 2. - Add new weapon           *'),nl,
+	write('* 3. - Update weapons           *'),nl,
+	write('* 4. - Remove weapons           *'),nl,
 	write('* 5. - Add new Category         *'),nl,
 	write('* 6. - Add new Type             *'),nl,
 	write('* 7. - Guess the weapon game    *'),nl,
-    write('* 8. - Quit                     *'),nl,
-    write('*********************************'),nl,
+	write('* 8. - Quit                     *'),nl,
+	write('*********************************'),nl,
 	nl,
 	write('Select and confirm with a dot: '),
-    read(X),
-    menu1(X).
+	read(X),
+	menu1(X).
 
 menu1(1):-
 		consult('base.pro'),
